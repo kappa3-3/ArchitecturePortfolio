@@ -1,0 +1,47 @@
+{
+  "projects": [
+     {
+      "id": 1,
+      "name": "Architecture School in Dubai",
+      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The main idea of supplying the building with power is utilizing the Solar Electric Generating System, which consists of 7 000 computer-controlled hemistats, each 3,5m high and 1,2m wide. They are positioned by the computers to focus the sunlight at the tank, located on the top of the 120m tower, where water gets turned into steam to power the turbines. Outer elevation is not only a construction structure, but it also provides the building with an interesting, decorative form. The inner facade is made of glass, which allows plenty of daylight to enter the building. Ipasol neutral solar control glass reduces overheating of the offices caused by the intensive solar radiation, which is present throughout the year. This reduces the air conditioning costs and protects the environment.",
+      "icon": "./assets/icons/icon-dubai.svg",
+      "class": "dubai"
+    },
+    {
+      "id": 2,
+      "name": "Detached House",
+      "description": "The reconstruction project of a single-family house implies its division into two independent areas with individual entrances. The diversity of levels and vertical sectioning allowed to obtain additional space. The living zone was separated from the working area by placing it on the first and second floor.",
+      "icon": "./assets/icons/icon-house.svg",
+      "class": "house"
+    },
+        {
+      "id": 3,
+      "name": "Bamboo School",
+      "description": "The main goal of the project was to use locally accessible materials and create a building feasible to construct by the indigenous people. Bamboo and clay (as the low cost and easily available materials) make the structure possible to be built in terms of economic and technical aspects. Moreover, the use of materials known to Ethiopians for centuries makes it doable for local communities to fully understand the construction methods introduced in the project. In addition to that, there is a significant issue of a poor access to education for Ethiopian children. The project aims to raise the awareness about the need of school enrollment in the poorest regions of Ethiopia. The proposed concept focuses on lifting the education standards to a higher level, as well as lowering the percentage of illiteracy. Furthermore, it evens out the chances of getting proper education for children from rural and urban areas.",
+      "icon": "IconBamboo",
+      "class": "bamboo"
+    },
+    {
+      "id": 4,
+      "name": "Hostel at Księży Młyn",
+      "description": "Księży Młyn is an inspiring, climatic nad characteristic place in Łódź. Not only is it located in the old manufacturing center, but it also is an area with great development potential. The planned revitalization of Księży Młyn inspired me to present my own vision of the growth of this place. The main assumption of the proposed set of four buildings is a division of their functions. The cluster of three buildings located in the depth of the plot constitutes a hostel, while the remaining building serves a commercial function. Each floor of the hostel is divided into three zones. In the outer zone there are private rooms, while in the central section common spaces (kitchen, lounge room, staircase, etc.) are located. The hostel can be reached in two ways: by going directly from the outside and then getting through a staircase or elevator to the right floor or by enter ing the theater building's underground hallway. The theater and restaurant building complement the urban renewal project of Księży Młyn with new, important functions for this location. The building does not have the character of a commercial cinema; on the contrary - it provides an intimate place which brings together the lovers of independent cinema.",
+      "icon": "",
+      "class": "hostel"
+    },
+    {
+      "id": 5,
+      "name": "Multifunctional Pavilion ",
+      "description": "The multifunctional pavilion project within the castle courtyard in Łęczyca. The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. In the pavilion there is a mezzanine connecting the new building with an old part, the so-called powder magazine. The observation deck was designed on the top of already existing walls, which are about 1.5m thick. It has a form of a glazed corridor, adjacent to the higher floor mezzanine. The main objective of this conservation project was to change the original structure as little as possible, and to design a space accessible to everyone.",
+      "icon": "IconCastle",
+      "class": "castle"
+    },
+    {
+      "id": 6,
+      "name": "L. Schmierder & Son’s Factory",
+      "description": "The former woolen weaving mill of Louis Schmieder & Son (Łódź, Poland) has been adapted for the exhibition space. The intention was to bring back a typical 19th century textile factory into prominence. An office space and an education zone (freely accessible for students) were designed in the factory. In the site there is also a conference hall for more than one hundred people, a workshop zone and a restaurant. Due to the conservation directives, the building was insulated from the inside, which allowed to maintain the original brick exterior elevation. A curtain glass wall attached to south elevation eliminates the need to exit the building to reach different zones of the complex.",
+      "icon": "./assets/icons/icon-factory.svg",
+      "class": "factory"
+    }
+
+  ]
+}

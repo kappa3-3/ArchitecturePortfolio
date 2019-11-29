@@ -1,0 +1,92 @@
+@import "../../style/colors";
+
+//ICONS SHOWING THE PROGRESS
+.skills-indicator-bamboo {
+  left: -15px;
+  @include iconIndicator;
+  &::after{
+    top: -52px;
+    left: -5px;
+  }
+}
+
+.skills-indicator-dubai {
+  left: -5px;
+  @include iconIndicator;
+  &::after{
+    top: -10px;
+    left: -55px;
+  }
+}
+
+.skills-indicator-house {
+  left: -18px;
+  @include iconIndicator;
+  &::after{
+    top: -50px;
+    left: 5px;
+    width: 350px;
+    height: 350px;
+  }
+}
+
+//CERTAIN CATEGORIES
+.skills {
+  @include generalProjectBox;
+  width: 600px;
+}
+
+.graphic-software {
+  position: absolute;
+  top: 62vh;
+  left: 4vw
+}
+.soft-skills {
+  position: absolute;
+  top: 35vh;
+  right: 2vw;
+}
+.scripting {
+  position: absolute;
+  top: 5vh;
+  left:2vw;
+}
+
+//TABLE
+.table-title {
+  background-color: $dominant-color-opacity;
+  color: white;
+  font-size:18px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 50px;
+  text-align: left;
+  padding: 5px;
+}
+.table-subtitle {
+  font-size: 10px;
+  font-weight: lighter;
+  color: $grey-text;
+  vertical-align: bottom;
+  padding: 0;
+  margin: 0;
+}
+.certain-skill {
+  text-align: left;
+  color: $dominant-color;
+}
+//.skill-advanced {
+//  border-spacing: revert;
+//  border-collapse: unset;
+//  &::before {
+//    content: '';
+//    width: 80px;
+//    height: 15px;
+//    background-color: $dominant-color;
+//    display: block;
+//    padding: 0;
+//    margin: 0;
+//    border-spacing: revert;
+//    border-collapse: unset;
+//  }
+//}

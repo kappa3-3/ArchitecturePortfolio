@@ -1,0 +1,39 @@
+
+$white-background-opacity: rgba(255,255,255, 0.5);
+$spinner: rgba(255,255,255,0.85);
+$spinner-arrow:radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 6%, rgba(255,255,255,0.6124824929971988) 100%);
+$grey-text: rgb(35,35,35);
+$color-background:rgb(240, 240, 240);
+$dominant-color: rgb(120, 111, 132);
+$dominant-color-opacity: rgba(187, 179, 198, 0.45);
+$shadows: rgb(210, 210, 210);
+
+@mixin generalProjectBox {
+  position: absolute;
+  width: 500px;
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 5px;
+  border: white;
+  padding: 16px;
+  font-size: 14px;
+  color: #48494B;
+  box-shadow: 2px 2px 2px 2px $shadows;
+  outline: none;
+}
+
+@mixin iconIndicator {
+  transform: scale(0.15);
+  height: 60px;
+  width: 80px;
+  position: relative;
+  &::after {
+    content: '';
+    background-color: $dominant-color-opacity;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -50;
+  }
+}

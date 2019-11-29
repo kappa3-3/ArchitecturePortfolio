@@ -1,0 +1,66 @@
+@import "../../style/colors";
+
+.dubai {
+  @include generalProjectBox;
+  top: 30vh;
+  left: 1vw;
+}
+.house {
+  @include generalProjectBox;
+  top: 5vh;
+  left: 25vw;
+}
+.hostel {
+  @include generalProjectBox;
+  top: 40vh;
+  right: 1vw;
+}
+.bamboo {
+  @include generalProjectBox;
+  top: 5vh;
+  right: 10vw;
+}
+.castle {
+  @include generalProjectBox;
+  top: 70vh;
+  left: 36vw;
+}
+.factory {
+  @include generalProjectBox;
+  top: 70vh;
+  left: 15vw;
+}
+
+.fadeOut {
+  animation: fadeOut .4s forwards;
+  display: block;
+}
+.fadeIn {
+  animation: fadeIn .7s forwards;
+  display: block;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(.6);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+};
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(.6);
+    filter: blur(2px);
+  }
+};
