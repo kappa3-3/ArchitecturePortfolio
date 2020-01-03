@@ -37,6 +37,7 @@
 .dubai-bg {
   background-image: url("../../assets/images/Dubai.jpg");
   @include bgProjects;
+  background-position: bottom;
 }
 .castle-bg {
   background-image: url("../../assets/images/Bamboo.jpg");
