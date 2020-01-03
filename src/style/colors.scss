@@ -1,23 +1,23 @@
-
-$white-background-opacity: rgba(255,255,255, 0.5);
-$spinner: rgba(255,255,255,0.85);
-$spinner-arrow:radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 6%, rgba(255,255,255,0.6124824929971988) 100%);
-$grey-text: rgb(35,35,35);
-$color-background:rgb(240, 240, 240);
+$white-background-opacity: rgba(255, 255, 255, 0.5);
+$white-background-opacity-weak: rgba(255, 255, 255, 0.8);
+$spinner: rgba(255, 255, 255, 0.85);
+$spinner-arrow: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 6%, rgba(255, 255, 255, 0.6124824929971988) 100%);
+$grey-text: rgb(35, 35, 35);
+$color-background: rgb(240, 240, 240);
 $dominant-color: rgb(120, 111, 132);
 $dominant-color-opacity: rgba(187, 179, 198, 0.45);
-$shadows: rgb(210, 210, 210);
+$shadows: rgba(90, 90, 90, 0.2);
 
 @mixin generalProjectBox {
   position: absolute;
   width: 500px;
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   border: white;
   padding: 16px;
   font-size: 14px;
   color: #48494B;
-  box-shadow: 2px 2px 2px 2px $shadows;
+  box-shadow: 4px 4px 6px 3px $shadows;
   outline: none;
 }
 
@@ -36,4 +36,13 @@ $shadows: rgb(210, 210, 210);
     position: absolute;
     z-index: -50;
   }
+}
+
+@mixin bgProjects {
+  position: absolute;
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }

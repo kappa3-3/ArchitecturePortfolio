@@ -11,6 +11,13 @@ import Cv from './Pages/Cv'
 
 
 export default function Routing() {
+
+    window.scrollBy({
+        top: 1,
+        left: 0,
+        behavior: "smooth"
+    });
+
     return (
         <Router>
             <div>

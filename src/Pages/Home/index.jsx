@@ -1,6 +1,14 @@
 import React from 'react';
-import Globe from '../../Components/Globe';
+import GlobeUpdate from '../../Components/GlobeUpdate';
+import Intro from '../../Components/Intro';
 
-const Home = () => <Globe />;
+const Home = () => {
+    return (
+        <>
+            <Intro />
+            <GlobeUpdate />;
+        </>
+    )
+};
 
 export default Home;

@@ -1,10 +1,14 @@
 @import "../../style/colors";
 
+.project-container {
+  position: relative;
+}
 .dubai {
   @include generalProjectBox;
   top: 30vh;
   left: 1vw;
 }
+
 .house {
   @include generalProjectBox;
   top: 5vh;
@@ -29,6 +33,32 @@
   @include generalProjectBox;
   top: 70vh;
   left: 15vw;
+}
+.dubai-bg {
+  background-image: url("../../assets/images/Dubai.jpg");
+  @include bgProjects;
+}
+.castle-bg {
+  background-image: url("../../assets/images/Bamboo.jpg");
+  @include bgProjects;
+}
+.factory-bg {
+  background-image: url("../../assets/images/Factory.jpg");
+  @include bgProjects;
+}
+.bamboo-bg {
+  background-image: url("../../assets/images/Bamboo.jpg");
+  @include bgProjects;
+}
+.house-bg {
+  background-image: url("../../assets/images/House.jpg");
+  @include bgProjects;
+  background-position: bottom;
+}
+.hostel-bg {
+  background-image: url("../../assets/images/hostel.png");
+  @include bgProjects;
+  background-position: bottom;
 }
 
 .fadeOut {

@@ -3,7 +3,7 @@ import './App.scss';
 import Routing from './Routing';
 
 
-const  App = () => <Routing/>
 
+const  App = () => <Routing />;
 
 export default App;
