@@ -7,7 +7,7 @@ import {
 
 import Header from './Components/Header'
 import Home from './Pages/Home'
-import Cv from './Pages/Cv'
+// import Cv from './Pages/Cv'
 
 
 export default function Routing() {
@@ -24,7 +24,7 @@ export default function Routing() {
                 <Header />
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route path="/cv" component={Cv} />
+                    {/*<Route path="/cv" component={Cv} />*/}
                 </Switch>
             </div>
         </Router>

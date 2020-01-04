@@ -11,7 +11,7 @@
 
 .house {
   @include generalProjectBox;
-  top: 5vh;
+  top: 3vh;
   left: 25vw;
 }
 .hostel {
@@ -26,38 +26,39 @@
 }
 .castle {
   @include generalProjectBox;
-  top: 70vh;
+  bottom: -98vh;
   left: 36vw;
 }
 .factory {
   @include generalProjectBox;
-  top: 70vh;
+  bottom: -98vh;
   left: 15vw;
 }
 .dubai-bg {
-  background-image: url("../../assets/images/Dubai.jpg");
+  background-image: url("../../assets/images/Dubai-bg.jpg");
   @include bgProjects;
   background-position: bottom;
 }
 .castle-bg {
-  background-image: url("../../assets/images/Bamboo.jpg");
+  background-image: url("../../assets/images/Castle-bg.jpg");
   @include bgProjects;
+  background-position: center;
 }
 .factory-bg {
-  background-image: url("../../assets/images/Factory.jpg");
+  background-image: url("../../assets/images/Factory-bg.jpg");
   @include bgProjects;
 }
 .bamboo-bg {
-  background-image: url("../../assets/images/Bamboo.jpg");
+  background-image: url("../../assets/images/Bamboo-bg.jpg");
   @include bgProjects;
 }
 .house-bg {
-  background-image: url("../../assets/images/House.jpg");
+  background-image: url("../../assets/images/House-bg.jpg");
   @include bgProjects;
-  background-position: bottom;
+  background-position: left bottom;
 }
 .hostel-bg {
-  background-image: url("../../assets/images/hostel.png");
+  background-image: url("../../assets/images/Hostel-bg.jpg");
   @include bgProjects;
   background-position: bottom;
 }

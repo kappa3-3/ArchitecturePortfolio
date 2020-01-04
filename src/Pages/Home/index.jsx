@@ -1,14 +1,6 @@
 import React from 'react';
 import GlobeUpdate from '../../Components/GlobeUpdate';
-import Intro from '../../Components/Intro';
 
-const Home = () => {
-    return (
-        <>
-            <Intro />
-            <GlobeUpdate />;
-        </>
-    )
-};
+const Home = () => <GlobeUpdate />;
 
 export default Home;

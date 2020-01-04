@@ -2,4 +2,6 @@
 
 .intro-main {
   @include generalProjectBox;
+  top: 25px;
+  left: 20%;
 }

@@ -5,10 +5,11 @@ const Intro = () => {
 
     return (
         <div className='intro-main'>
+            <h1>Welcome!</h1>
             <p>
-                This is a website of a former architect who at some point wanted to become a frond-end developer.
+                This is a website of a former architect who at some point wanted to become a frond-end developer. See how JavaScript helps in presenting Architecture projects.
             </p>
-            <h1>To navigate use scroll</h1>
+            <h2>To navigate use scroll</h2>
         </div>
         )
 

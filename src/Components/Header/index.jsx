@@ -1,15 +1,14 @@
 import React, {Component} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import {fas} from "@fortawesome/free-solid-svg-icons";
+
 import './style.scss';
 
-
-import {
-    NavLink
-} from "react-router-dom";
-
+library.add(fab, fas);
 
 class Header extends Component {
-
-
     handleMenu = (e) => {
         e.preventDefault();
         const toggleMenu = document.getElementById('menu-toggle');
@@ -33,13 +32,30 @@ class Header extends Component {
         return (
                 <nav className="main-list">
                     <button onClick={this.handleMenu} className="main-burger" id="main-burger" />
-
                     <ul className="hideElement" id="menu-toggle">
                         <li>
-                            <NavLink onClick={this.handleLink} activeClass="active-link" to="/">Home</NavLink>
+                            <a
+                                onClick={this.handleLink}
+                                href="http://www.linkedin.com/in/katarzynajaniszewska"
+                                className='main-list-redirect'
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                                &nbsp;LinkedIn
+                            </a>
                         </li>
                         <li>
-                            <NavLink onClick={this.handleLink} activeClass="active-link" to="/cv">Cv</NavLink>
+                            <a
+                                onClick={this.handleLink}
+                                href="http://www.github.com/kappa3-3"
+                                className='main-list-redirect'
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={['fab', 'github']} />
+                                &nbsp;GitHub
+                            </a>
                         </li>
                     </ul>
                 </nav>
