@@ -1,7 +1,13 @@
 import React, {Component} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import {fas} from "@fortawesome/free-solid-svg-icons";
 import {NavLink} from "react-router-dom";
 
 import './style.scss';
+
+library.add(fab, fas);
 
 class Header extends Component {
     handleMenu = (e) => {
@@ -35,8 +41,9 @@ class Header extends Component {
                                 activeClass="active-link"
                                 to="/"
                                 className='main-list-redirect'
-                            >Home
-
+                            >
+                                <FontAwesomeIcon icon={['fas', 'home']} />
+                                &nbsp;Home
                             </NavLink>
                         </li>
                         <li>
@@ -44,14 +51,21 @@ class Header extends Component {
                                 onClick={this.handleLink}
                                 href="http://www.linkedin.com/in/katarzynajaniszewska"
                                 className='main-list-redirect'
-                            >LinkedIn</a>
+                                target="_blank"
+                            >
+                                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                                &nbsp;LinkedIn
+                            </a>
                         </li>
                         <li>
                             <a
                                 onClick={this.handleLink}
                                 href="http://www.github.com/kappa3-3"
                                 className='main-list-redirect'
-                            >GitHub</a>
+                            >
+                                <FontAwesomeIcon icon={['fab', 'github']} />
+                                &nbsp;GitHub
+                            </a>
                         </li>
                     </ul>
                 </nav>
