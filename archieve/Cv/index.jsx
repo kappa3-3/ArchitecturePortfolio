@@ -1,6 +1,6 @@
 import React from 'react';
-import Skills from '../../Components/Skills';
-import Spinner from '../../Components/SpinnerSkills';
+import Skills from '../Skills';
+import Spinner from '../../src/Components/SpinnerSkills';
 
 const Cv = () => {
     return (

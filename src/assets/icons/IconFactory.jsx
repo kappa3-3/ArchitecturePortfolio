@@ -5,8 +5,8 @@ function IconFactory(props) {
       <div {...props}>
       <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="270,6"
-          height="128,7"
+          width="270"
+          height="128"
           x="0"
           y="0"
           version="1.1"
