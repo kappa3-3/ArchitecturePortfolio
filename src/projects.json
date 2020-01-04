@@ -1,9 +1,9 @@
 {
   "projects": [
-     {
+    {
       "id": 1,
       "name": "Architecture School in Dubai",
-      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The main idea of supplying the building with power is utilizing the Solar Electric Generating System, which consists of 7 000 computer-controlled hemistats. They are positioned by the computers to focus the sunlight at the tank, located on the top of the tower, where water gets turned into steam to power the turbines. Ipasol neutral solar control glass reduces overheating of the offices caused by the intensive solar radiation, which is present throughout the year. This reduces the air conditioning costs and protects the environment.",
+      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The main idea of supplying the building with power is utilizing the Solar Electric Generating System. It consists of computer-controlled hemistats positioned to focus the sunlight at the tank, where water gets turned into steam to power the turbines. Ipasol neutral solar control glass reduces overheating of the offices caused by the intensive solar radiation and therefore the air conditioning costs.",
       "icon": "./assets/icons/icon-dubai.svg",
       "class": "dubai"
     },
@@ -14,25 +14,25 @@
       "icon": "./assets/icons/icon-house.svg",
       "class": "house"
     },
-        {
+    {
       "id": 3,
       "name": "Bamboo School",
-      "description": "The main goal of the project was to use locally accessible materials and create a building feasible to construct by the indigenous people. Bamboo and clay (as the low cost and easily available materials) make the structure possible to be built in terms of economic and technical aspects. Moreover, the use of materials known to Ethiopians for centuries makes it doable for local communities to fully understand the construction methods introduced in the project. In addition to that, the project aims to raise the awareness about the need of school enrollment in the poorest regions of Ethiopia. The proposed concept focuses on lifting the education standards to a higher level, as well as lowering the percentage of illiteracy.",
-      "icon": "IconBamboo",
+      "description": "The main goal of the project was to use locally accessible materials and create a building feasible to construct by the indigenous people. Bamboo and clay (as the low cost and easily available materials) make the structure possible to be built in terms of economic and technical aspects as well as doable for local communities to fully understand the construction methods. The project aims to raise the awareness about the need of school enrollment in the poorest regions of Ethiopia.",
+      "icon": "./assets/icons/iconBamboo.svg",
       "class": "bamboo"
     },
     {
       "id": 4,
       "name": "Hostel at Księży Młyn",
-      "description": "Księży Młyn is an inspiring, climatic nad characteristic place in Łódź. The main assumption of the proposed set of four buildings is a division of their functions. The cluster of three buildings located in the depth of the plot constitutes a hostel, while the remaining building serves a commercial function. The theater and restaurant building complement the urban renewal project of Księży Młyn with new, important functions for this location. The building does not have the character of a commercial cinema; on the contrary - it provides an intimate place which brings together the lovers of independent cinema.",
+      "description": "Księży Młyn is an inspiring, climatic nad characteristic place in Łódź. The planned revitalization of Księży Młyn inspired me to present my own vision of the growth of this place. The main assumption of the proposed set of four buildings is a division of their functions. The cluster of three buildings located in the depth of the plot constitutes a hostel, while the remaining building serves a commercial function. The theater and restaurant building complement the urban renewal project of Księży Młyn with new, important functions for this location. The building does not have the character of a commercial cinema; on the contrary - it provides an intimate place which brings together the lovers of independent cinema.",
       "icon": "",
       "class": "hostel"
     },
     {
       "id": 5,
       "name": "Multifunctional Pavilion ",
-      "description": "The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. In the pavilion there is a mezzanine connecting the new building with an old part, the so-called powder magazine. The observation deck was designed on the top of already existing walls of 1.5m thickness and it has a form of a glazed corridor, adjacent to the higher floor mezzanine. The main objective of this conservation project was to change the original structure as little as possible, and to design a space accessible to everyone.",
-      "icon": "IconCastle",
+      "description": "The multifunctional pavilion project within the castle courtyard in Łęczyca. The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. In the pavilion there is a mezzanine connecting the new building with an old part, the so-called powder magazine. The observation deck was designed on the top of already existing 1.5m thick walls in a form of a glazed corridor, adjacent to the higher floor mezzanine. The main objective of this conservation project was to change the original structure as little as possible, and to design a space accessible to everyone.",
+      "icon": "./assets/icons/icon-castle.svg",
       "class": "castle"
     },
     {
