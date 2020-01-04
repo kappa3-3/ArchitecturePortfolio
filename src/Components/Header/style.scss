@@ -9,34 +9,17 @@ ul {
   margin: 0;
 }
 .menu {
+  list-style: none;
+  width: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   z-index: 100;
   top: 75px;
   right: 50px;
   border-radius: 10px;
   background-color: rgba(255,255,255, 0.7);
-  margin: 0;
-  li {
-    display: flex;
-    list-style: none;
-    font-size: 20px;
-    color: $grey-text;
-    width: 100%;
-    border:0;
-    padding: 12px 3px 0 3px;
-    :hover {
-      font-weight: bold;
-      cursor: crosshair;
-      width:100%;
-      padding: 2px;
-      color: $dominant-color;
-    }
   }
-}
 
 .hideElement {
   display: none;
@@ -131,4 +114,20 @@ ul {
 }
 .active-link{
   display:none;
+}
+.main-list-redirect {
+  display: flex;
+  font-size: 20px;
+  box-sizing: border-box;
+  color: $grey-text;
+  width: 100%;
+  border: 0;
+  padding: 12px 3px 0 3px;
+
+  &:hover {
+    font-weight: bold;
+    cursor: crosshair;
+    width: 100%;
+    color: $dominant-color;
+  }
 }

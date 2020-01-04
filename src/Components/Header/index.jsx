@@ -1,15 +1,9 @@
 import React, {Component} from "react";
+import {NavLink} from "react-router-dom";
+
 import './style.scss';
 
-
-import {
-    NavLink
-} from "react-router-dom";
-
-
 class Header extends Component {
-
-
     handleMenu = (e) => {
         e.preventDefault();
         const toggleMenu = document.getElementById('menu-toggle');
@@ -36,10 +30,28 @@ class Header extends Component {
 
                     <ul className="hideElement" id="menu-toggle">
                         <li>
-                            <NavLink onClick={this.handleLink} activeClass="active-link" to="/">Home</NavLink>
+                            <NavLink
+                                onClick={this.handleLink}
+                                activeClass="active-link"
+                                to="/"
+                                className='main-list-redirect'
+                            >Home
+
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink onClick={this.handleLink} activeClass="active-link" to="/cv">Cv</NavLink>
+                            <a
+                                onClick={this.handleLink}
+                                href="http://www.linkedin.com/in/katarzynajaniszewska"
+                                className='main-list-redirect'
+                            >LinkedIn</a>
+                        </li>
+                        <li>
+                            <a
+                                onClick={this.handleLink}
+                                href="http://www.github.com/kappa3-3"
+                                className='main-list-redirect'
+                            >GitHub</a>
                         </li>
                     </ul>
                 </nav>

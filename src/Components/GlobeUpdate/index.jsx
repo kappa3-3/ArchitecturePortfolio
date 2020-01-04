@@ -4,6 +4,7 @@ import SingleProject from "../SingleProject";
 import './style.scss';
 import debounce from 'lodash';
 import Projects from '../../projects';
+import Intro from "../Intro";
 
 
 class GlobeUpdate extends Component {
@@ -14,11 +15,13 @@ class GlobeUpdate extends Component {
     state = {
         projects: [],
         visible: 0,
+        welcomePrompt: true
     };
 
 
 
     componentDidMount() {
+
         window.addEventListener('wheel', this.handleWheel);
 
         const URL_PROJECTS = 'http://localhost:3000/projects';
@@ -31,6 +34,7 @@ class GlobeUpdate extends Component {
     handleWheel = event => {
 
         if (event.deltaY > 0) {
+            this.setState({welcomePrompt:false});
             if (this.state.visible >= this.state.projects.length ) {
                 // eslint-disable-next-line react/no-direct-mutation-state
                 this.setState({visible: this.state.visible = 1})
@@ -65,9 +69,10 @@ class GlobeUpdate extends Component {
 
         return (
             <div tabIndex={1} className="container">
+                {this.state.welcomePrompt && <Intro />}
                 <div className='globe'>
                     {cards}
-                    <div className={`globe-outer globe-outer-${this.state.visible}`}>
+                    <div className={`globe-outer globe-outer-${this.state.visible} `}>
                         {icons[this.state.visible - 1]}
                     </div>
                 </div>
