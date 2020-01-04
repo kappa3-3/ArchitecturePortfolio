@@ -16,8 +16,6 @@ class GlobeUpdate extends Component {
         projects: [],
         visible: 0,
         welcomePrompt: true,
-        up: false,
-        down: false
     };
 
     componentDidMount() {

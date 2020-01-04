@@ -3,7 +3,7 @@
      {
       "id": 1,
       "name": "Architecture School in Dubai",
-      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The main idea of supplying the building with power is utilizing the Solar Electric Generating System, which consists of 7 000 computer-controlled hemistats. They are positioned by the computers to focus the sunlight at the tank, located on the top of the 120m tower, where water gets turned into steam to power the turbines. Ipasol neutral solar control glass reduces overheating of the offices caused by the intensive solar radiation, which is present throughout the year. This reduces the air conditioning costs and protects the environment.",
+      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The main idea of supplying the building with power is utilizing the Solar Electric Generating System, which consists of 7 000 computer-controlled hemistats. They are positioned by the computers to focus the sunlight at the tank, located on the top of the tower, where water gets turned into steam to power the turbines. Ipasol neutral solar control glass reduces overheating of the offices caused by the intensive solar radiation, which is present throughout the year. This reduces the air conditioning costs and protects the environment.",
       "icon": "./assets/icons/icon-dubai.svg",
       "class": "dubai"
     },
