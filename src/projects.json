@@ -31,7 +31,7 @@
     {
       "id": 5,
       "name": "Multifunctional Pavilion ",
-      "description": "The multifunctional pavilion project within the castle courtyard in Łęczyca. The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. In the pavilion there is a mezzanine connecting the new building with an old part, the so-called powder magazine. The observation deck was designed on the top of already existing 1.5m thick walls in a form of a glazed corridor, adjacent to the higher floor mezzanine. The main objective of this conservation project was to change the original structure as little as possible, and to design a space accessible to everyone.",
+      "description": "The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. In the pavilion there is a mezzanine connecting the new building with an old part, the so-called powder magazine. The observation deck was designed on the top of already existing 1.5m thick walls in a form of a glazed corridor, adjacent to the higher floor mezzanine. The main objective of this conservation project was to change the original structure as little as possible.",
       "icon": "./assets/icons/icon-castle.svg",
       "class": "castle"
     },

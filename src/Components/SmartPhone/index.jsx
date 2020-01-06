@@ -1,7 +1,7 @@
 import React from "react";
 import './style.scss';
 
-const Smartphone = () => {
+export default function Smartphone() {
 
     return (
         <div className='smart-phone-main'>
@@ -13,4 +13,3 @@ const Smartphone = () => {
         )
 
 };
-export default Smartphone;
