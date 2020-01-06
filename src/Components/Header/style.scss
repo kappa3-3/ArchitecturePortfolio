@@ -1,14 +1,38 @@
 @import "../../style/colors";
-ul {
-  margin: 0;
-  padding: 12px;
+
+@mixin burger {
+  z-index: 100;
+  width: 40px;
+  height: 35px;
+  border: 0;
+  outline: none;
+  border-top: 5px solid #ffffff;
+  background: transparent;
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  transition: 0.3s transform linear;
+  cursor: crosshair;
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #ffffff;
+    z-index: 100;
+  }
 }
+
 .main-list {
   position: relative;
   padding: 0;
   margin: 0;
 }
+
 .menu {
+  margin: 0;
+  padding: 12px;
   list-style: none;
   width: 120px;
   display: flex;
@@ -18,103 +42,37 @@ ul {
   top: 75px;
   right: 50px;
   border-radius: 10px;
-  background-color: rgba(255,255,255, 0.7);
-  }
-
-.hideElement {
-  display: none;
-  position: absolute;
-  z-index: 100;
-}
-@mixin burgerElement {
-  content: '';
-  width: 40px;
-  height: 6px;
-  border-radius: 5px;
-  background: white;
-  margin-top: 7px;
-  margin-right: 7px;
-  display: block;
-  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .main-burger {
-  z-index: 100;
-  width: 40px;
-  height: 35px;
-  border: 0;
-  outline: none;
-  border-top: 5px solid #ffffff;
-  background: transparent;
-  position: absolute;
-  right: 40px;
-  top: 25px;
-  transition: 0.3s transform linear;
-  cursor: crosshair;
-
-  &::before, &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-top: 5px solid #ffffff;
+  @include burger;
+  &::before {
     transform: translateY(10px);
-    z-index: 100;
   }
-  &:hover {
-    transform: scale(1.25);
-  }
-}
-  .main-burger::after {
+  &::after {
     transform: translateY(25px);
     transition: 0.3s transform linear;
   }
-
-
-.main-burger-focus {
-  z-index: 100;
-  width: 40px;
-  height: 35px;
-  border: 0;
-  outline: none;
-  border-top: 5px solid #ffffff;
-  background: transparent;
-  position: absolute;
-  right: 40px;
-  top: 25px;
-  transition: 0.3s transform linear;
-  cursor: crosshair;
-
-  &::before, &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-top: 5px solid #ffffff;
-    transform: translateY(10px);
-    z-index: 100;
-  }
   &:hover {
     transform: scale(1.25);
   }
 }
-.main-burger-focus::after {
-  transform: translateY(25px);
-  transition: 0.3s transform linear;
-}
 
-.main-burger-focus:focus {
+.main-burger-focus {
+ @include burger;
   transform: rotate(45deg) translateY(5px);
   border: none;
+
   &::after {
-    transform: rotate(-90deg) translateX(-10px);
+    transition: 0.3s transform linear;
+    transform: rotate(-90deg) ;
+  }
+  &::before {
+    transition: 0.3s transform linear;
   }
 }
-.active-link{
-  display:none;
-}
+
 .main-list-redirect {
   display: flex;
   font-size: 20px;
