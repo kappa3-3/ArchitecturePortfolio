@@ -1,0 +1,17 @@
+@import "../../style/colors";
+
+.smart-phone-main {
+  position: absolute;
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  border: white;
+  padding: 16px;
+  font-size: 16px;
+  color: #48494B;
+  box-shadow: 4px 4px 6px 3px $shadows;
+  outline: none;
+  line-height: 25px;
+  top: 30%;
+  left: 33%;
+}

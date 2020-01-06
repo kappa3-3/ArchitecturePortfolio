@@ -10,7 +10,7 @@ $shadows: rgba(90, 90, 90, 0.2);
 
 @mixin generalProjectBox {
   position: absolute;
-  width: 25%;
+  width: 33%;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   border: white;
@@ -46,4 +46,5 @@ $shadows: rgba(90, 90, 90, 0.2);
   background-size: cover;
   height: 100vh;
   width: 100%;
+  z-index: -100
 }
