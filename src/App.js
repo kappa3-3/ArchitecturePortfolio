@@ -1,7 +1,13 @@
 import React from "react";
+import Header from './Components/Header'
+import Home from './Pages/Home'
 import './App.scss';
-import Routing from './Routing';
 
-const  App = () => <Routing />;
+const App = () => (
+  <>
+    <Header />
+    <Home />
+  </>
+);
 
 export default App;

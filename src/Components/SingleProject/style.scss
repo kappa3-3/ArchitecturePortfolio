@@ -47,16 +47,17 @@
 .dubai-bg {
   background-image: url("../../assets/images/Dubai-bg.jpg");
   @include bgProjects;
-  background-position: bottom;
+  background-position: center bottom;
 }
 .castle-bg {
   background-image: url("../../assets/images/Castle-bg.jpg");
   @include bgProjects;
-  background-position: center;
+  background-position: right;
 }
 .factory-bg {
   background-image: url("../../assets/images/Factory-bg.jpg");
   @include bgProjects;
+  background-position: top;
 }
 .bamboo-bg {
   background-image: url("../../assets/images/Bamboo-bg.jpg");
@@ -65,7 +66,7 @@
 .house-bg {
   background-image: url("../../assets/images/House-bg.jpg");
   @include bgProjects;
-  background-position: left bottom;
+  background-position: center bottom;
 }
 .hostel-bg {
   background-image: url("../../assets/images/Hostel-bg.jpg");
