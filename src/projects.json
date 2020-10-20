@@ -3,44 +3,44 @@
     {
       "id": 1,
       "name": "Architecture School in Dubai",
-      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The main idea of supplying the building with power is utilizing the Solar Electric Generating System. It consists of computer-controlled hemistats positioned to focus the sunlight at the tank, where water gets turned into steam to power the turbines. Ipasol neutral solar control glass reduces overheating of the offices caused by the intensive solar radiation and therefore the air conditioning costs.",
+      "description": "The project of the Architecture School Tower presents a modern solution of adjusting a skyscraper to the needs of nowadays educational building. The building is supplied with power by the Solar Electric Generating System. Its computer-controlled hemistats are positioned to focus the sunlight at the tank, where water gets turned into steam to power the turbines. Ipasol neutral solar control glass reduces overheating of the offices and therefore the air conditioning costs.",
       "icon": "./assets/icons/icon-dubai.svg",
-      "class": "dubai"
+      "cl": "dubai"
     },
     {
       "id": 2,
       "name": "Detached House",
       "description": "The reconstruction project of a single-family house implies its division into two independent areas with individual entrances. The diversity of levels and vertical sectioning allowed to obtain additional space. The living zone was separated from the working area by placing it on the first and second floor.",
       "icon": "./assets/icons/icon-house.svg",
-      "class": "house"
+      "cl": "house"
     },
     {
       "id": 3,
       "name": "Bamboo School",
-      "description": "The main goal of the project was to use locally accessible materials and create a building feasible to construct by the indigenous people. Bamboo and clay (as the low cost and easily available materials) make the structure possible to be built in terms of economic and technical aspects as well as doable for local communities to fully understand the construction methods. The project aims to raise the awareness about the need of school enrollment in the poorest regions of Ethiopia.",
+      "description": "The main goal of the project was to use locally accessible materials and create a building feasible to construct by the indigenous people. Bamboo and clay (as the low cost and easily available materials) make the structure possible to be built in terms of economic and technical aspects. The project aims to raise the awareness about the need of school enrollment in the poorest regions of Ethiopia.",
       "icon": "./assets/icons/iconBamboo.svg",
-      "class": "bamboo"
+      "cl": "bamboo"
     },
     {
       "id": 4,
       "name": "Hostel at Księży Młyn",
-      "description": "Księży Młyn is an inspiring, climatic nad characteristic place in Łódź. The planned revitalization of Księży Młyn inspired me to present my own vision of the growth of this place. The main assumption of the proposed set of four buildings is a division of their functions. The cluster of three buildings located in the depth of the plot constitutes a hostel, while the remaining building serves a commercial function. The theater and restaurant building complement the urban renewal project of Księży Młyn with new, important functions for this location. The building does not have the character of a commercial cinema; on the contrary - it provides an intimate place which brings together the lovers of independent cinema.",
+      "description": "Księży Młyn is an inspiring and climatic place in Łódź. The cluster of three buildings located in the depth of the plot serves as a hostel, while the remaining building as a theater with a restaurant. The new proposal complement the urban renewal project of Księży Młyn with new, important functions for this location. It provides an intimate place which brings together the lovers of independent cinema.",
       "icon": "",
-      "class": "hostel"
+      "cl": "hostel"
     },
     {
       "id": 5,
       "name": "Multifunctional Pavilion ",
-      "description": "The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. In the pavilion there is a mezzanine connecting the new building with an old part, the so-called powder magazine. The observation deck was designed on the top of already existing 1.5m thick walls in a form of a glazed corridor, adjacent to the higher floor mezzanine. The main objective of this conservation project was to change the original structure as little as possible.",
+      "description": "The building serves the function of an exhibition pavilion hall with audio-visual facilities, which allow to organize workshops, seminars, and musical events. The observation deck was designed on the top of already existing 1.5m thick walls in a form of a glazed corridor allowing the visitors to admire the view. The main objective of this conservation project was to change the original structure as little as possible.",
       "icon": "./assets/icons/icon-castle.svg",
-      "class": "castle"
+      "cl": "castle"
     },
     {
       "id": 6,
       "name": "L. Schmierder & Son’s Factory",
-      "description": "The former woolen weaving mill of Louis Schmieder & Son (Łódź, Poland) has been adapted for the exhibition space. The intention was to bring back a typical 19th century textile factory into prominence. An office space and an education zone (freely accessible for students) were designed in the factory. In the site there is also a conference hall for more than one hundred people, a workshop zone and a restaurant. Due to the conservation directives, the building was insulated from the inside, which allowed to maintain the original brick exterior elevation. ",
+      "description": "The former woolen weaving mill of Louis Schmieder & Son (Łódź, Poland) has been adapted for the exhibition space. The intention was to bring back a typical 19th century textile factory into prominence. An office space and an education zone (freely accessible for students) were designed in the factory. Due to the conservation directives, the building was insulated from the inside, which allowed to maintain the original brick exterior elevation. ",
       "icon": "./assets/icons/icon-factory.svg",
-      "class": "factory"
+      "cl": "factory"
     }
 
   ]

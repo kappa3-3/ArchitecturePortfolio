@@ -1,38 +1,48 @@
 @import "../../style/colors";
 
+.hideElement {
+  visibility: hidden;
+}
+
 .project-container {
   position: relative;
 }
 .dubai {
   @include generalProjectBox;
   top: 30vh;
-  left: 1vw;
+  left: 2vw;
+  right: 69vw;
 }
 
 .house {
   @include generalProjectBox;
   top: 3vh;
   left: 25vw;
+  right: 25vw;
 }
 .hostel {
   @include generalProjectBox;
-  top: 40vh;
+  top: 45vh;
   right: 1vw;
+  left: 70vw;
 }
 .bamboo {
   @include generalProjectBox;
-  top: 5vh;
-  right: 10vw;
+  top: 9vh;
+  right: 2vw;
+  left: 65vw;
 }
 .castle {
   @include generalProjectBox;
   bottom: -98vh;
-  left: 36vw;
+  left: 45vw;
+  right: 2vw;
 }
 .factory {
   @include generalProjectBox;
   bottom: -98vh;
-  left: 15vw;
+  left: 2vw;
+  right: 45vw;
 }
 .dubai-bg {
   background-image: url("../../assets/images/Dubai-bg.jpg");

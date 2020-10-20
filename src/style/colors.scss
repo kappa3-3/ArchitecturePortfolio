@@ -10,16 +10,15 @@ $shadows: rgba(90, 90, 90, 0.2);
 
 @mixin generalProjectBox {
   position: absolute;
-  width: 33%;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   border: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 14px;
+  font-size: 15px;
   color: #48494B;
   box-shadow: 4px 4px 6px 3px $shadows;
   outline: none;
-  line-height: 25px;
+  line-height: 22px;
 }
 
 @mixin iconIndicator {

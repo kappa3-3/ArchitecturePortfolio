@@ -16,7 +16,6 @@
 * Screen resolution detecton with <b>JavaScript</b>
 * Used <b>React</b> class components
 * Implemented <b>Sass</b> mixins and for loop
-* Simulated server on GitHub and used <b>fetch</b> to collect data
 * Logic based on <b>wheel</b> event
 
 ## Technologies
